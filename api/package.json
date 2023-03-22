@@ -7,7 +7,7 @@
     "start": "nodemon -L",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
-  "author": "Henry",
+  "author": "Jesuara Caballero",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
