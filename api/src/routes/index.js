@@ -5,6 +5,12 @@ const { Router } = require('express');
 
 const router = Router();
 
+
+router.use(require('./add-client'));
+router.use(require('./add-car'));
+router.use(require('./add-order'));
+router.use(require('./add-services'));
+
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 
